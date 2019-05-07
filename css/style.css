@@ -1,0 +1,58 @@
+.knockout-text {
+  /* if we can clip, do it */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  /* what will show through the text
+        ~ or ~
+       what will be the background of that element */
+  background-image: url("../images/Lincoln.jpeg");
+  background-attachment: fixed;
+  background-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+    font-size: 10rem;
+    font-weight: bolder;
+}
+
+.forcedSize {
+  /* background-image: url('../images/Lincoln.jpeg'); */
+  background-color: black;
+  background-size: 2.5rem, 2.5rem;
+  height: 10rem;
+}
+
+h2 {
+  color: white;
+}
+
+.centerClass {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: black;
+}
+
+.boxStyle {
+  background-color: white;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.row {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btnWidth {
+  width: 100%;
+}
+
+.list-group {
+  padding-left: 15px;
+}

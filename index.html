@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+    <title>Enhanced Name Generator</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col knockout-text text-center">
+              <h1>NAMEY THINGY</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <div class="row">
+              <div class="col">
+                <h2 class="centerClass">Add Stuff Here!</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col centerClass">
+                <input type="text" placeholder="Enter a Name" id="nameField">
+                <div class="btn btn-primary btnWidth" id="submitBtn">Add Name</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col centerClass">
+                <input type="text" placeholder="Enter a Group Size" id="groupSizeField">
+                <div class="btn btn-warning btnWidth" id="groupSizeBtn">Random Groups By Group Size</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col centerClass">
+                <input type="text" placeholder="Enter a Group Number" id="groupNumberField">
+                <div class="btn btn-warning btnWidth" id="groupNumberBtn">Random Groups By no. of groups</div>
+              </div>
+            </div>
+            <div class="row" id="randomGroupsDisplay">
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="row">
+              <div class="col">
+                <h2 class="centerClass">Click to Remove</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col list-group" id="listDisplay">
+                <!-- Here is where our list of names are displayed -->
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="btn btn-danger btnWidth" id="randomBtn">Random Name</div>
+                <h2 id="randomName"></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="JavaScript/TypeScript.js"></script>
+  </body>
+</html>
